@@ -13,7 +13,7 @@ export default function AboutPage() {
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-3xl font-bold mb-4 text-gold drop-shadow-[0_0_8px_rgba(255,215,0,0.5)]">About Our Fraternity</h2>
             <p className="text-gray-300 mb-4 drop-shadow-[0_0_8px_rgba(255,215,0,0.3)]">
-              Alpha Beta Gamma is more than just a fraternity – it's a brotherhood that fosters personal growth,
+              Alpha Beta Gamma is more than just a fraternity – it&apos;s a brotherhood that fosters personal growth,
               academic excellence, and lifelong friendships. Founded in 1950, we have a rich history of producing
               leaders and making a positive impact on our community.
             </p>
