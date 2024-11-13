@@ -4,25 +4,6 @@ import { useState } from "react";
 import { ArrowRight } from 'lucide-react'
 import Image from "next/image";
 
-export const metadata = {
-    title: "MIT Sigma Nu",
-    description:
-      "MIT's Epsilon Theta Chapter of Sigma Nu Fraternity. A brotherhood fostering leadership, excellence and lifelong friendships since 1922.",
-    openGraph: {
-      title: "MIT Sigma Nu",
-      images: [
-        {
-          url: "/images/about/chapter.png", 
-          width: 1200,
-          height: 630,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      images: ["/images/about/chapter.png"],
-    },
-  };
 
 export default function AboutPage() {
   return (
@@ -60,9 +41,9 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-8 text-center text-gold drop-shadow-[0_0_8px_rgba(255,215,0,0.5)]">Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Brotherhood", description: "Foster lifelong friendships and support networks" },
-              { title: "Leadership", description: "Develop strong leaders for our community and beyond" },
-              { title: "Excellence", description: "Strive for the highest standards in all we do" }
+              { title: "Love", description: "Foster lifelong friendships and support networks" },
+              { title: "Honor", description: "Uphold integrity and respect in all our actions" },
+              { title: "Truth", description: "Pursue honesty and authenticity in everything we do" }
             ].map((value, index) => (
               <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-md border border-gold">
                 <h3 className="text-xl font-semibold mb-2 text-gold">{value.title}</h3>
