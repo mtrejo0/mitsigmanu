@@ -27,7 +27,7 @@ export default function SummerHousingPage() {
         <h2 className="text-3xl font-bold mb-8 text-gold">Location</h2>
         <div className="prose prose-invert max-w-none mb-12">
           <p>
-            Our house is located at 99 Bay State Road in the heart of Kenmore. The house itself is a beautiful six-story brownstone mansion that includes a fully-equipped kitchen and several large common areas. We are conveniently located near public transportation, including the Kenmore Square Green Line Stop (B,C, and D Line Trains), so getting in and around the city is easy. Fenway park is a 5 minute walk away, so we recommend you take in a Red Sox game or two while you're here.
+            Our house is located at 99 Bay State Road in the heart of Kenmore. The house itself is a beautiful six-story brownstone mansion that includes a fully-equipped kitchen and several large common areas. We are conveniently located near public transportation, including the Kenmore Square Green Line Stop (B,C, and D Line Trains), so getting in and around the city is easy. Fenway park is a 5 minute walk away, so we recommend you take in a Red Sox game or two while you&apos;re here.
           </p>
         </div>
 
@@ -106,7 +106,7 @@ export default function SummerHousingPage() {
           <h2 className="text-3xl font-bold my-8 text-gold">FAQs</h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl font-semibold text-gold">I've filled out my form. When can I expect to hear back from you?</h3>
+              <h3 className="text-xl font-semibold text-gold">I&apos;ve filled out my form. When can I expect to hear back from you?</h3>
               <p>We receive a lot of inquires and unfortunately cannot respond to all of them. If you do not qualify for house, you likely will not be reached. If you do qualify, you should hear from us with a week. Please check your spam folder as some emails from our @mit.edu address has ended up there.</p>
             </div>
             <div>
@@ -115,7 +115,7 @@ export default function SummerHousingPage() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gold">Is there a gym in the building?</h3>
-              <p>No, we recommend GymIt at 920 Commonwealth Ave. It's about a 20min walk or a short T ride. The monthly costs are very reasonable for students.</p>
+              <p>No, we recommend GymIt at 920 Commonwealth Ave. It&apos;s about a 20min walk or a short T ride. The monthly costs are very reasonable for students.</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gold">Do have any responsibilities while living in the house?</h3>
@@ -123,7 +123,7 @@ export default function SummerHousingPage() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gold">Can I use the kitchen?</h3>
-              <p>Absolutely, we have a commercial kitchen and you're welcome to use it for your food preparation. We only ask that you clean up after yourself out of respect for the other residents.</p>
+              <p>Absolutely, we have a commercial kitchen and you&apos;re welcome to use it for your food preparation. We only ask that you clean up after yourself out of respect for the other residents.</p>
             </div>
           </div>
 
